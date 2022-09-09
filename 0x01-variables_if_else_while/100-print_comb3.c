@@ -8,21 +8,25 @@
  */
 int main(void)
 {
-	int d;
+	int n1 = 49;
+	int n2;
+	int com = 45;
 
-	for (d = 0; d < 90; d++)
+	while (n1 <= 57)
 	{
-		for ()
+		n2 = n1 + 1;
+		while (n2 <= 57)
 		{
-			putchar((d / 10) + '0');
-			putchar((d % 10) + '0');
+			putchar(n1);
+			putchar(n2);
+			if (n1 != 56 || n2 != 57)
+			{
+				putchar(com);
+				putchar(32);
+			}
+			n2 += 1;
 		}
-		if (d != 89)
-		{
-			putchar(',');
-			putchar(' ');
-		}
-	}
-	putchar('\n');
+		n1 += 1;
+		putchar('\n');
 	return (0);
 }
