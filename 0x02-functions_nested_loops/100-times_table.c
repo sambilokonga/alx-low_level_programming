@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_times_table - prints the times table for n.
+ * print_times_table - function that prints the n times table, starting with 0.
  * @n: The multiplication table requested.
  * Return: Nothing.
  */
