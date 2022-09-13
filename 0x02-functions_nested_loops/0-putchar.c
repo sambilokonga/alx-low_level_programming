@@ -1,20 +1,17 @@
-#include: main.h
+#include "main.h"
 /**
- * main - Entry point
+ * main - prints school
  *
- * Return: Always 0 (Success)
+ * Return: Always 0
  */
 int main(void)
 {
-	char *sh = "main";
-
-	while (*sh)
-	{
-		_putchar(*sh);
-		sh++;
-	}
-	_putchar('\n');
+	_putchar('s');
+	_putchar('c');
+	_putchar('h');
+	_putchar('o');
+	_putchar('o');
+	_putchar('l');
 
 	return (0);
 }
-
