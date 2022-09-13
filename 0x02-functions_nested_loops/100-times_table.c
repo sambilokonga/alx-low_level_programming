@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * times_table - function that prints the n times table, starting with 0.
+ * File: 100-times_table.c
  * @n: The multiplication table requested.
  * Return: Nothing.
  */
