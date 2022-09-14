@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_times_table - 100-times_table.c
+ * print_times_table - prints the times table for n.
  * @n: The multiplication table requested.
  * Return: Nothing.
  */
