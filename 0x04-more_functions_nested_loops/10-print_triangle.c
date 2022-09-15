@@ -1,23 +1,27 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * print_triangle - draws a triangle using multiple terminal lines and #'s.
- * @size: the height of the triangle.
+ * print_triangle - function that prints a square, followed by a new line
+ * @size: size of triangle
+ * Return: nothing.
  */
+
 void print_triangle(int size)
 {
-	int i, j;
+	int row, col, aux;
+
 
 	if (size > 0)
 	{
-		for (i = 1; i <= size; i++)
+		for (row = 0; row < size; row++)
 		{
-			for (j = size; j >= 1; j--)
+			for (col = 0; col < size; col++)
 			{
-				if (i < j)
+				aux = (size - row) - 1;
+				if (col < aux)
 					_putchar(' ');
 				else
-					_putchar('#');
+					_putchar(35);
 			}
 			_putchar('\n');
 		}
