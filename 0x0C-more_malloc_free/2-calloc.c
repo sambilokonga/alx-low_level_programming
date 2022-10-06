@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "main.h"
+
 /**
  * _calloc - print 0s into 2D grid
  * @nmemb: array num
@@ -24,7 +25,3 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 
 	return (arr);
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
